@@ -1,11 +1,15 @@
 import React from 'react'
+import SidebarMenu from '../components/SidebarMenu';
+import MainContent from '../components/MainContent';
 
 const Home = () => {
   return (
-    <div>
-      <h1>This is Home</h1>
+      <div className="min-h-screen flex">
+        <SidebarMenu />
+        <MainContent />
     </div>
-  )
-}
+  );
+};
+
 
 export default Home
